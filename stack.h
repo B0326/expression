@@ -21,9 +21,9 @@ typedef struct {
 Status InitStack(SqStack& s);//构造空栈；
 Status GetTop(SqStack s);//获得栈顶元素；
 Status Push(SqStack& s, SElemType e);//插入e为新的栈顶元素；
-Status Pop(SqStack& s, SElemType &e);//删除栈顶元素，并用e值作为返回；
+Status Pop(SqStack& s, SElemType& e);//删除栈顶元素，并用e值作为返回；
 Status Clear(SqStack& s);
 bool IsNumber(char ch);
 Status OptorCompare(char ch, SqStack s);
-Status Operate(double a,double b,char theta);
-
+Status Operate(double a, double b, char theta);
+Status ReadChar(SqStack& Num, SqStack& Optr);
