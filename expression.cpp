@@ -1,5 +1,6 @@
 #include "stack.h"
 int main() {
+
 	SqStack Optr, Num;
 	InitStack(Optr);
 	InitStack(Num);
